@@ -1,0 +1,30 @@
+{
+  "name": "mf-different-react-versions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-host": "cd rspack-host && npm i",
+    "install-guest": "cd vite-guest && npm i",
+    "dev-host": "cd rspack-host && npm run dev",
+    "dev-guest": "cd vite-guest && npm run dev",
+    "install": "run-s -l install-*",
+    "dev": "run-p -l dev-*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmullayanov/webpack-vite-microfrontend-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tmullayanov/webpack-vite-microfrontend-demo/issues"
+  },
+  "homepage": "https://github.com/tmullayanov/webpack-vite-microfrontend-demo#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
