@@ -11,6 +11,15 @@ It demonstrates how to integrate isolated builds and resolve compatibility issue
 
 ## ⚙️ Usage
 
+All at once:
+
+```bash
+npm i
+npm run dev
+```
+
+Or, if you want  to run them separately, refer to the next section.
+
 ### 🧩 Host (`rspack-host`)
 
 ```bash
