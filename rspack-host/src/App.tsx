@@ -26,6 +26,8 @@ function App() {
           <BridgeBtn  callback={() => console.log("HELLO")}/>
           // <ExtButton />
         }
+        <hr />
+        {/* <ExtButton /> cause invalid hook call */}
       </div>
       <p className="read-the-docs">
         Click on the Rspack and React logos to learn more
